@@ -4,38 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style2.css" />
+
+    <title>Responsive Netflix Clone</title>
   </head>
   <body>
     <header>
       <h1>NETFLIX</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">Latest</a>
+        <a href="#">My List</a>
+      </nav>
     </header>
+
     <main>
       <section class="hero">
         <h2>Unlimited movies, TV shows and more</h2>
         <p>Starts at ₹149. Cancel at any time.</p>
-        <input type="email" placeholder="Enter your email" />
-        <button class="get-started">Get Started</button>
+        <input type="email" placeholder="Email address" />
+        <button>Get Started</button>
       </section>
+
       <section class="trending">
         <h3>Trending Now</h3>
-        <div class="trending-list">
-          <div class="movie">1</div>
-          <div class="movie">2</div>
-          <div class="movie">3</div>
-          <div class="movie">4</div>
-          <div class="movie">5</div>
-          <div class="movie">6</div>
-          <div class="movie">7</div>
+        <div class="trending-cards">
+          <!-- Repeating items -->
+          <div class="card">Card 1</div>
+          <div class="card">Card 2</div>
+          <div class="card">Card 3</div>
         </div>
       </section>
+
       <section class="plans">
         <h3>A plan to suit your needs</h3>
-        <div class="plan">Mobile</div>
-        <div class="plan">Basic</div>
-        <div class="plan">Standard</div>
-        <div class="plan">Premium</div>
+        <div class="plan-card">Basic</div>
+        <div class="plan-card">Standard</div>
+        <div class="plan-card">Premium</div>
       </section>
     </main>
+
+    <footer>
+      <p>&copy; 2025 Your Company</p>
+    </footer>
   </body>
 </html>

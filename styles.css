@@ -1,72 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #141414;
-    color: #fff;
-    margin: 0;
+    color: #ffffff;
 }
 
 header {
-    background-color: #e50914;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
-    text-align: center;
+    background-color: #e50914;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .hero {
     text-align: center;
-    padding: 40px 20px;
-    background: url('https://example.com/background-image.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    background: url('hero-image.jpg') no-repeat center center/cover;
 }
 
 .hero h2 {
-    font-size: 2.5em;
-}
-
-.hero p {
-    font-size: 1.2em;
-}
-
-input[type="email"] {
-    padding: 10px;
-    width: 300px;
-    margin: 10px 0;
-}
-
-.get-started {
-    background-color: #e50914;
-    border: none;
-    padding: 15px 25px;
-    color: white;
-    font-size: 1em;
-    cursor: pointer;
+    font-size: 36px;
 }
 
 .trending {
     padding: 20px;
 }
 
-.trending-list {
-    display: flex;
-    justify-content: space-around;
+.trending-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
 }
 
-.movie {
-    width: 100px;
-    height: 150px;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5em;
+.card {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .plans {
-    background-color: #222;
-    text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.plan {
+.plan-card {
+    background-color: #333;
     margin: 10px 0;
     padding: 20px;
-    background-color: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
 }
