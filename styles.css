@@ -1,75 +1,79 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #141414;
-    color: #ffffff;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #ffffff;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #e50914;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #e50914;
 }
 
 header h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 nav a {
-    margin: 0 15px;
-    color: #ffffff;
-    text-decoration: none;
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: url('hero-image.jpg') no-repeat center center/cover;
+  background-image: url('photos/background.jpg'); /* Adjust the path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Ensure text is visible */
+  text-align: center;
+  padding: 100px 20px; /* Add spacing */
 }
 
 .hero h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .trending {
-    padding: 20px;
+  padding: 20px;
 }
 
 .trending-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
 }
 
 .card {
-    background-color: #222;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .plans {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .plan-card {
-    background-color: #333;
-    margin: 10px 0;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
+  background-color: #333;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #111;
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
 }
