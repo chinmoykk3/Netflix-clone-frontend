@@ -1,13 +1,95 @@
-@media (max-width: 600px) {
-    .hero h2 {
-        font-size: 24px;
-    }
 
-    nav {
-        flex-direction: column;
-    }
+<style
+data-rh="true"
+data-toolkit-style="true"
+id="layout-item.css#layout-item_styles__zc08zp30"
+>
+.layout-item_styles__zc08zp30 {
+  --zc08zpd: initial;
+  --zc08zpv: initial;
+  --zc08zp1d: initial;
+  --zc08zp1v: initial;
+  --zc08zp2d: initial;
+  --zc08zp2v: initial;
+  --zc08zpg: initial;
+  --zc08zpy: initial;
+  --zc08zp1g: initial;
+  --zc08zp1y: initial;
+  --zc08zp2g: initial;
+  --zc08zp2y: initial;
+  --zc08zpc: initial;
+  --zc08zpu: initial;
+  --zc08zp1c: initial;
+  --zc08zp1u: initial;
+  --zc08zp2c: initial;
+  --zc08zp2u: initial;
+  --zc08zp7: initial;
+  --zc08zpp: initial;
+  --zc08zp17: initial;
+  --zc08zp1p: initial;
+  --zc08zp27: initial;
+  --zc08zp2p: initial;
+  --zc08zp0: inherit;
+  --zc08zpi: inherit;
+  --zc08zp10: inherit;
+  --zc08zp1i: inherit;
+  --zc08zp20: inherit;
+  --zc08zp2i: inherit;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: var(--zc08zpd, initial);
+  flex: var(--zc08zpg, initial);
+  justify-content: var(--zc08zpc, initial);
+  padding: var(--zc08zp7, initial);
+  width: var(--zc08zp0, inherit);
+}
 
-    .plan-card {
-        font-size: 14px;
-    }
+@media screen {
+  .layout-item_styles__zc08zp30 {
+    --zc08zpd: var(--zc08zpv, initial);
+    --zc08zpg: var(--zc08zpy, initial);
+    --zc08zpc: var(--zc08zpu, initial);
+    --zc08zp7: var(--zc08zpp, initial);
+    --zc08zp0: var(--zc08zpi, inherit);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .layout-item_styles__zc08zp30 {
+    --zc08zpd: var(--zc08zp1d, initial);
+    --zc08zpg: var(--zc08zp1g, initial);
+    --zc08zpc: var(--zc08zp1c, initial);
+    --zc08zp7: var(--zc08zp17, initial);
+    --zc08zp0: var(--zc08zp10, inherit);
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .layout-item_styles__zc08zp30 {
+    --zc08zpd: var(--zc08zp1v, initial);
+    --zc08zpg: var(--zc08zp1y, initial);
+    --zc08zpc: var(--zc08zp1u, initial);
+    --zc08zp7: var(--zc08zp1p, initial);
+    --zc08zp0: var(--zc08zp1i, inherit);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .layout-item_styles__zc08zp30 {
+    --zc08zpd: var(--zc08zp2d, initial);
+    --zc08zpg: var(--zc08zp2g, initial);
+    --zc08zpc: var(--zc08zp2c, initial);
+    --zc08zp7: var(--zc08zp27, initial);
+    --zc08zp0: var(--zc08zp20, inherit);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .layout-item_styles__zc08zp30 {
+    --zc08zpd: var(--zc08zp2v, initial);
+    --zc08zpg: var(--zc08zp2y, initial);
+    --zc08zpc: var(--zc08zp2u, initial);
+    --zc08zp7: var(--zc08zp2p, initial);
+    --zc08zp0: var(--zc08zp2i, inherit);
+  }
 }
